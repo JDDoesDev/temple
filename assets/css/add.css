@@ -1,0 +1,79 @@
+body {
+  font-family:'Arvo', serif !important;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #1a1917 !important;
+  background-color: #fff;
+}
+
+.site-main {
+  padding-top: 140px !important;
+}
+/* Top Bar */
+
+.site-topbar {
+  background: #3e3c38 !important;
+  color: #ebebc9 !important;
+  line-height: 40px;
+}
+
+/* Nav Bar */
+.site-navbar {
+  background:#1a1917 !important;
+  box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
+  margin: 0;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+}
+
+.site-navbar .navbar-nav {
+  margin: 30px 0 !important;
+  color: #ebebc9 !important;
+}
+
+.site-navbar .navbar-nav a {
+  color: #ebebc9 !important;
+}
+
+ul.nav a:hover {
+background-color: #3e3c38 !important; }
+
+.site-navbar .navbar-nav .active a, .site-navbar .navbar-nav a:active {
+  background: #3e3c38 !important;
+  color: #ebebc9 !important;
+}
+
+/* Site Logo */
+.navbar-brand {
+  float: left;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 105px !important;
+  width:221px !important;
+  background:url(../img/site-logo.png) center no-repeat;
+}
+
+
+.section .section-title span {
+  background:none !important;
+  padding: 0 10px;
+  z-index: 1;
+  position: relative;
+}
+
+.section .section-title:after {
+  content: "";
+  display: block;
+  height: 0 !important;
+  background:none !important;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+
+/* Flexible iFrame */
+
+
+
